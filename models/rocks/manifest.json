@@ -1,0 +1,62 @@
+{
+  "units": "metres",
+  "pivot": "ground-centre",
+  "up": "+Y",
+  "runtime": "rock-kit.glb",
+  "assets": [
+    {
+      "id": "talus",
+      "file": "talus.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    },
+    {
+      "id": "boulder",
+      "file": "boulder.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    },
+    {
+      "id": "split-boulder",
+      "file": "split-boulder.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    },
+    {
+      "id": "ledge",
+      "file": "ledge.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    },
+    {
+      "id": "cliff",
+      "file": "cliff.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    },
+    {
+      "id": "cliff-corner",
+      "file": "cliff-corner.glb",
+      "parts": [
+        "stone",
+        "moss",
+        "plants"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#29372a" />
+    <link
+      rel="preload"
+      href="./fonts/libre-caslon-display.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/dm-sans-regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <title>Leafbound · The Giant Tree</title>
+    <script type="module" crossorigin src="./assets/index-C_ITV_iG.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dhbk4fg_.css">
+  </head>
+  <body aria-busy="true">
+    <section
+      id="loading-screen"
+      class="loading-screen"
+      aria-label="Loading Leafbound"
+    >
+      <svg width="0" height="0" aria-hidden="true" style="position: absolute">
+        <defs>
+          <symbol id="loading-tree" viewBox="0 0 80 100">
+            <path d="M37 60h6v35h-6z" fill="currentColor" />
+            <path
+              d="M40 3C28 3 24 14 25 21 10 21 5 37 13 47 0 59 12 76 27 73c7 12 23 12 30 0 18 4 28-16 15-27 6-14-3-27-16-25C56 10 49 3 40 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M40 26v56m0-23L26 46m14 23 17-16"
+              fill="none"
+              stroke="#21382b"
+              stroke-width="2"
+              opacity=".35"
+            />
+          </symbol>
+        </defs>
+      </svg>
+      <div class="loading-trees" aria-hidden="true">
+        <div
+          class="loading-tree"
+          style="
+            --x: 5%;
+            --size: 64px;
+            --duration: 28s;
+            --delay: -8s;
+            --color: #b6bc8b;
+            --opacity: 0.17;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 18%;
+            --size: 42px;
+            --duration: 34s;
+            --delay: -24s;
+            --color: #d5ac68;
+            --opacity: 0.2;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 30%;
+            --size: 80px;
+            --duration: 32s;
+            --delay: -5s;
+            --color: #96a47b;
+            --opacity: 0.12;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 44%;
+            --size: 32px;
+            --duration: 38s;
+            --delay: -30s;
+            --color: #d6ba7e;
+            --opacity: 0.15;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 57%;
+            --size: 44px;
+            --duration: 31s;
+            --delay: -2s;
+            --color: #9eaf87;
+            --opacity: 0.13;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 68%;
+            --size: 68px;
+            --duration: 36s;
+            --delay: -20s;
+            --color: #d4af70;
+            --opacity: 0.18;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 82%;
+            --size: 48px;
+            --duration: 29s;
+            --delay: -12s;
+            --color: #c9bf91;
+            --opacity: 0.2;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+        <div
+          class="loading-tree"
+          style="
+            --x: 93%;
+            --size: 88px;
+            --duration: 40s;
+            --delay: -32s;
+            --color: #91a27a;
+            --opacity: 0.16;
+          "
+        >
+          <svg viewBox="0 0 80 100"><use href="#loading-tree" /></svg>
+        </div>
+      </div>
+      <div class="loading-copy">
+        <div class="loading-eyebrow">A LITTLE ROOM TO BREATHE</div>
+        <h1 class="loading-title">Leafb<span>o</span>und</h1>
+        <div class="loading-chapter">THE GIANT TREE</div>
+        <div class="loading-rule" aria-hidden="true"></div>
+        <div class="loading-progress">
+          <progress
+            id="loading-progress"
+            max="100"
+            aria-label="Loading the clearing"
+            aria-describedby="loading-status"
+          ></progress>
+          <span id="loading-percent" aria-hidden="true">Loading…</span>
+        </div>
+        <p id="loading-status" role="status" aria-live="polite">
+          Gathering the clearing…
+        </p>
+        <button id="loading-retry" type="button" hidden>Try again</button>
+      </div>
+    </section>
+    <div id="app" inert></div>
+  </body>
+</html>
